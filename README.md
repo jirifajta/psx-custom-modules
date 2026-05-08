@@ -19,7 +19,7 @@ Makes storing, using and managing _textures_ and _cluts_ (color lookup tabels) h
 - [ ] Release
 
 ## ![PSX Polygon subdivision](/src/PsxSys/)
-Subdivide polygons in screenspace to limit pixels off screen. A prototype was already made for Java which can be found at ![PSX uniform polygon processing](https://github.com/jirifajta/computer-graphics-polygon-subdivision).
+Subdivide polygons in screenspace to limit pixels off screen. A prototype was already made for Java which can be found at ![CG polygon subdivision](https://github.com/jirifajta/computer-graphics-polygon-subdivision).
 ### Status
 - [X] Proof of Concept
 - [ ] Work in progress to convert into C code.
