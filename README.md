@@ -33,7 +33,7 @@ These are written in assembly.
 There are more coded modules. Maybe some of them will be made available later.
 - custom light handling
 - timer
-- custom access to files on a cdrom. Like access a file, searching using a query and returning a list of a requested file type or substring.
+- custom access to files on a cdrom. Like access a file, searching using a query and returning a list of a requested file type or files containing substring.
 - custom GTE routines.
 - split screen PoC.
 - 3D stereoscopic PoC. ![See here for more.](https://github.com/jirifajta/psx-3d-stereoscopic)
