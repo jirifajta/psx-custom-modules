@@ -1,1 +1,1 @@
-// For know, this is a placeholder.
+// For now, this is a placeholder.
