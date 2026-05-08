@@ -23,6 +23,7 @@ Subdivide polygons in screenspace to limit pixels off screen. A prototype was al
 ### Status
 - [X] Proof of Concept
 - [ ] Work in progress to convert into C code.
+- [ ] Readme description
 - [ ] Release
 
 ## ![PSX uniform polygon processing](https://github.com/jirifajta/psx-uniform-polygon-processing)
