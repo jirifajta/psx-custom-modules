@@ -23,9 +23,9 @@ If using PsxClutManager which is optional, then also insert this one to allocate
 Max texture height supported is 256 pixel data in VRAM. This is due to tpage limitation. 
 
 **NOTE:**
-By default _cell_in_pixels_size_ is set to 32x32 pixel data in VRAM which divides VRAM intu 32x32 pixel blocks.
+By default _cell_in_pixels_size_ is set to 32x32 pixel data in VRAM which divides VRAM into 32x32 pixel blocks.
 This size opens the possiblity that textures of less then multiple of 64x256 pixel data size can be  tpage unaligned in VRAM. This means that texture does not start at tpage coordinate and because of offset, textures will be wrong mapped to primitives if texture coords (UV) are not changed accordingly.
 There are two options how to handle this:
 1. Use always textures of multiple of 64x256 pixel data size. Like 64x256, 128x256, 256x256, 320x256, and so on.
 2. Or, after inserting texture, use _vram_manager_vram_align_delta(...)_ function to adjust the offset of texture coords. This function calculates the offset.
-   And use _vram_manager_move_vt_based_on_not_aligned_texture_update_vt_only(DVECTOR *vt_shift, DVECTOR *vts, u_long num_vt)_ to applay the offset to the primitives UV.
+   And use _vram_manager_move_vt_based_on_not_aligned_texture_update_vt_only(DVECTOR *vt_shift, DVECTOR *vts, u_long num_vt)_ to apply the offset to the primitives UV.

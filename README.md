@@ -9,7 +9,7 @@ Many components need to be taken care of to have a working software program to r
 > This repository only contains my own source code written from scratch which is compatible with **Mipsel GCC** (like ![PSn00bSDK](https://github.com/Lameguy64/PSn00bSDK/)) compiler.<br/>The code is intentionally not written to tied to a specific SDK to keep it flexible.
 <br/>
 
-## ![PSX PsxVramManager and PsxClutManager](/src/PsxSys/)
+## ![PSX PsxVramManager and PsxClutManager](/src/PsxSys/PsxVramManager-and-PsxClutManager-README.md)
 Makes storing, using and managing _textures_ and _cluts_ (color lookup tabels) handling in VRAM easier. 
 > [!TIP]
 > Also usefull for streaming these kind of assets into VRAM by swapping textures during large scenes in a program.
@@ -32,7 +32,7 @@ These are written in assembly.
 
 ## More modules...
 There are more coded modules. Maybe some of them will be made available later.
-- custom light handling
+- custom light reflection.
 - timer
 - custom access to files on a cdrom. Like access a file, searching using a query and returning a list of a requested file type with its properties (like file name, size and position on cd) or list of files containing substring.
 - custom GTE routines.
@@ -42,4 +42,9 @@ There are more coded modules. Maybe some of them will be made available later.
 - custom memory page file system.
 - concept of a gameitem.
 - Level Of Detail handler.
+- Texture scrolling.
+- Texture animation.
+- Framebuffer as texture handler.
+- Particle system.
+- Hotswap multitap and controller manager.
 - .....
