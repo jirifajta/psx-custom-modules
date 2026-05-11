@@ -1,7 +1,7 @@
 # PSX Modules
 
 **PsxVramManager** & **PsxClutManager** are modules for PSX to make _textures_ and _cluts_ (color lookup tabels) handling in VRAM easier.
-Default way of doing this, is to locate textures and cluts is to code offset in PSX _Tim_ (alike) files.
+Default way of doing this, is to hardcode locations of textures and cluts in PSX _Tim_ (alike) files.
 
 This default method has some drawbacks:
 1. Planning entire VRAM mapping where textures and cluts needs to be placed.
